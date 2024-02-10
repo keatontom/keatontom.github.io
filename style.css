@@ -20,20 +20,16 @@ body, html {
 
 button {
     margin: 2vh 0;
-    padding: 1vh 2vw;
-    font-size: 12px;
+    padding: 2vh 4vw;
 }
 
 #yesBtn {
     position: fixed;
     background-color: rgb(197, 6, 95);
-    transition: left 0.5s ease, top 0.5s ease;
-    font-family: 'Brush Script MT', cursive;
 }
 
 #noBtn {
     position: fixed;
     background-color: rgb(197, 6, 95);
     transition: left 0.5s ease, top 0.5s ease;
-    font-family: 'Brush Script MT', cursive;
 }
