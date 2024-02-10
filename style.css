@@ -25,12 +25,14 @@ button {
 }
 
 #yesBtn {
+    position: fixed;
     background-color: rgb(197, 6, 95);
     transition: left 0.5s ease, top 0.5s ease;
     font-family: 'Brush Script MT', cursive;
 }
 
 #noBtn {
+    position: fixed;
     background-color: rgb(197, 6, 95);
     transition: left 0.5s ease, top 0.5s ease;
     font-family: 'Brush Script MT', cursive;
