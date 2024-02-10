@@ -20,7 +20,8 @@ body, html {
 
 button {
     margin: 2vh 0;
-    padding: 2vh 4vw;
+    padding: 1vh 2vw;
+    font-size: 14px;
 }
 
 #yesBtn {

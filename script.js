@@ -21,9 +21,3 @@ document.getElementById('noBtn').addEventListener('click', function(e) {
     e.target.style.top = `${newY}px`;
 });
 
-document.addEventListener('DOMContentLoaded', function() {
-    const noBtn = document.getElementById('noBtn');
-    // Set an initial position if desired, e.g., bottom right corner
-    noBtn.style.left = `${window.innerWidth - noBtn.offsetWidth - 20}px`; // 20px from the right edge
-    noBtn.style.top = `${window.innerHeight - noBtn.offsetHeight - 20}px`; // 20px from the bottom edge
-});
