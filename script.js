@@ -1,5 +1,5 @@
 document.getElementById('yesBtn').addEventListener('click', function() {
-    document.body.innerHTML = '<h1>Happy Valentines Day Emma!</h1>';
+    document.body.innerHTML = '<h1>Happy Valentines Day Emma<3!</h1>';
 });
 
 document.getElementById('noBtn').addEventListener('click', function(e) {

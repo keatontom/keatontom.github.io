@@ -7,11 +7,7 @@ body, html {
     display: flex;
     justify-content: center;
     align-items: center;
-    font-family: 'Calibri', sans-serif;
-}
-
-h1 {
-    font-size: 4vw;
+    font-family: 'Brush Script MT', cursive;
 }
 
 .valentine-container {
@@ -25,14 +21,13 @@ h1 {
 button {
     margin: 2vh 0;
     padding: 2vh 4vw;
-    transition: transform 0.5s ease;
 }
 
 #yesBtn {
-    background-color: lightgreen;
+    background-color: rgb(197, 6, 95);
 }
 
 #noBtn {
-    background-color: lightcoral;
-    transition: transform 0.5s ease;
+    background-color: rgb(197, 6, 95);
+    transition: left 0.5s ease, top 0.5s ease;
 }
