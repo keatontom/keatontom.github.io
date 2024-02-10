@@ -2,22 +2,21 @@ document.getElementById('yesBtn').addEventListener('click', function() {
     document.body.innerHTML = '<h1>Happy Valentines Day Emma!</h1>';
 });
 
-document.getElementById('noBtn').addEventListener('mouseover', function(e) {
+document.getElementById('noBtn').addEventListener('click', function(e) {
+    const safeMargin = 50; // Margin to keep away from text
     const viewportWidth = window.innerWidth;
     const viewportHeight = window.innerHeight;
-    const buttonWidth = e.target.offsetWidth;
-    const buttonHeight = e.target.offsetHeight;
-
-    // Calculate max position for the button to ensure it stays visible
-    const maxX = viewportWidth - buttonWidth;
-    const maxY = viewportHeight - buttonHeight;
-
-    // Generate a random position within the bounds
+    const textHeight = document.querySelector('.valentine-container').offsetHeight;
+    
+    // Calculate safe areas, excluding an area around the text
+    const maxX = viewportWidth - e.target.offsetWidth - safeMargin;
+    const maxY = viewportHeight - e.target.offsetHeight - safeMargin - textHeight;
+    
+    // Ensure button stays in a visible, non-text area
     const newX = Math.random() * maxX;
-    const newY = Math.random() * maxY;
+    const newY = Math.random() * (maxY - textHeight) + textHeight;
 
-    // Apply the new position
-    e.target.style.position = 'fixed'; // Use 'fixed' to position relative to the viewport
+    e.target.style.position = 'fixed';
     e.target.style.left = `${newX}px`;
     e.target.style.top = `${newY}px`;
 });

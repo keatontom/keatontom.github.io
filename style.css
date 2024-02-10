@@ -7,7 +7,7 @@ body, html {
     display: flex;
     justify-content: center;
     align-items: center;
-    font-family: 'Arial', sans-serif;
+    font-family: 'Calibri', sans-serif;
 }
 
 h1 {
@@ -15,9 +15,11 @@ h1 {
 }
 
 .valentine-container {
-    width: 80%;
-    max-width: 600px;
-    margin: 0 auto;
+    text-align: center;
+    display: inline-flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
 }
 
 button {
@@ -32,4 +34,5 @@ button {
 
 #noBtn {
     background-color: lightcoral;
+    transition: transform 0.5s ease;
 }
