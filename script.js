@@ -3,9 +3,14 @@ document.getElementById('yesBtn').addEventListener('click', function() {
 });
 
 document.getElementById('noBtn').addEventListener('mouseover', function(e) {
-    const maxX = window.innerWidth - e.target.offsetWidth;
-    const maxY = window.innerHeight - e.target.offsetHeight;
+    const button = e.target;
+    const buttonWidth = button.offsetWidth;
+    const buttonHeight = button.offsetHeight;
+    const maxX = window.innerWidth - buttonWidth;
+    const maxY = window.innerHeight - buttonHeight;
     const newX = Math.random() * maxX;
     const newY = Math.random() * maxY;
-    e.target.style.transform = `translate(${newX}px, ${newY}px)`;
+    button.style.position = 'absolute';
+    button.style.left = `${newX}px`;
+    button.style.top = `${newY}px`;
 });
