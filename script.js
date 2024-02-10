@@ -1,5 +1,5 @@
 document.getElementById('yesBtn').addEventListener('click', function() {
-    document.body.innerHTML = '<h1>Yay! You are my Valentine!</h1><p>Here\'s why you\'re amazing:</p>'; // Add more content or redirect
+    document.body.innerHTML = '<h1>Happy Valentines Day Emma!</h1>';
 });
 
 document.getElementById('noBtn').addEventListener('mouseover', function(e) {
