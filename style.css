@@ -23,6 +23,12 @@ button {
     border: none;
 }
 
+#noBtn {
+    position: fixed;
+    bottom: 10px;
+    right: 10px;
+}
+
 #yesBtn {
     background-color: lightgreen;
 }
