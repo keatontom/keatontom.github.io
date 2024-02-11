@@ -6,6 +6,8 @@ document.getElementById('yesBtn').addEventListener('click', function() {
 document.getElementById('noBtn').addEventListener('mouseover', function(e) {
     const x = Math.random() * window.innerWidth;
     const y = Math.random() * window.innerHeight;
-    e.target.style.transition = 'all 0.3s ease-in-out'; // This will make the button glide
-    e.target.style.transform = `translate(${x}px, ${y}px)`; // This will move the button to the new position
+    e.target.style.position = 'absolute';
+    e.target.style.left = x + 'px';
+    e.target.style.top = y + 'px';
+    e.target.style.transition = 'all 0.5s'; 
 });
