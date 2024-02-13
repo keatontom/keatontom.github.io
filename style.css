@@ -7,22 +7,40 @@ body, html {
     display: flex;
     justify-content: center;
     align-items: center;
-    font-family: 'Arial', sans-serif;
+    font-family: 'Great Vibes', cursive;
+    box-sizing: border-box;
 }
 
 .valentine-container {
+    box-sizing: border-box;
     text-align: center;
     background-image: url('valentinesbunny.png'); /* Path to your PNG image */
     background-size: cover; /* Ensure it covers the entire container */
     background-position: center; /* Center the background image */
     background-repeat: no-repeat; /* Prevent the image from repeating */
-    width: 100%; /* Adjust based on your layout needs */
+    width: 50%; /* Adjust based on your layout needs */
     min-height: 100%; /* Ensure it's at least as tall as the viewport */
     display: flex;
     flex-direction: column;
-    justify-content: center;
+    justify-content: flex-start;
     align-items: center;
     padding: 50px;
+}
+
+h1 {
+    color: rgb(204, 0, 0);
+    text-shadow: 2px 2px 4px rgb(255, 1, 170); /* Add this line */
+}
+
+p {
+    text-size-adjust: 100%;
+    color: rgb(204, 0, 0);
+    text-shadow: 2px 2px 4px rgb(255, 1, 170); /* Add this line */
+}
+
+.button-container {
+    display: flex; /* Add this line */
+    justify-content: center; /* Add this line */
 }
 
 button {
