@@ -12,8 +12,6 @@ document.getElementById('yesBtn').addEventListener('click', function() {
 document.getElementById('noBtn').addEventListener('mouseover', function(e) {
     const x = Math.random() * window.innerWidth;
     const y = Math.random() * window.innerHeight;
-    // e.target.style.position = 'absolute';
     e.target.style.left = x + 'px';
     e.target.style.top = y + 'px';
-    // e.target.style.transition = 'all 0.5s'; 
 });
