@@ -35,8 +35,8 @@ h1 {
 p {
     text-size-adjust: 100%;
     color: rgb(204, 0, 0);
-    text-shadow: 2px 2px 4px rgb(255, 1, 170); /* Add this line */
-}
+    /* text-shadow: 2px 2px 4px rgb(255, 1, 170); /* Add this line */
+} 
 
 .button-container {
     display: flex; /* Add this line */
