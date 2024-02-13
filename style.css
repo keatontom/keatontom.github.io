@@ -12,7 +12,7 @@ body, html {
 
 .valentine-container {
     text-align: center;
-    background-image: url('yourImage.png'); /* Path to your PNG image */
+    background-image: url('valentinesbunny.png'); /* Path to your PNG image */
     background-size: cover; /* Ensure it covers the entire container */
     background-position: center; /* Center the background image */
     background-repeat: no-repeat; /* Prevent the image from repeating */
