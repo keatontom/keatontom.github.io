@@ -10,5 +10,4 @@ document.getElementById('noBtn').addEventListener('mouseover', function(e) {
     e.target.style.left = x + 'px';
     e.target.style.top = y + 'px';
     e.target.style.transition = 'all 0.5s'; 
-    e.target.style.transform = 'rotate(' + Math.random() * 360 + 'deg)';
 });
