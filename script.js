@@ -7,7 +7,7 @@ document.getElementById('yesBtn').addEventListener('click', function() {
     document.body.innerHTML = `
         <div style="display: flex; justify-content: space-between; align-items: center; height: 100vh; text-align: center; font-family: 'Great Vibes', cursive;">
             <div style="display: flex; flex-direction: column; align-items: center;">
-                <img src="/home/keaton/Downloads/IMG_0808.jpeg" alt="Left Image Top" style="width: 100%; max-width: 800px; height: auto;">
+                <img src="https://imgur.com/a/A5k7hSU" alt="Left Image Top" style="width: 100%; max-width: 800px; height: auto;">
                 <img src="/home/keaton/Downloads/DSCN1038.jpeg" alt="Left Image Middle" style="width: 100%; max-width: 800px; height: auto;">
                 <img src="/home/keaton/Downloads/DSCN1744.jpeg" alt="Left Image Bottom" style="width: 100%; max-width: 800px; height: auto;">
             </div>
