@@ -6,12 +6,12 @@ document.addEventListener('DOMContentLoaded', (event) => {
 document.getElementById('yesBtn').addEventListener('click', function() {
     document.body.innerHTML = `
         <div style="display: flex; justify-content: space-between; align-items: center; height: 100vh; text-align: center; font-family: 'Great Vibes', cursive;">
-            <div style="display: flex; flex-direction: column; align-items: center;">
-                <img src="https://i.imgur.com/eVMh8Ha.jpeg" alt="Left Image Top" style="width: 100%; max-width: 800px; height: auto;">
-                <img src="https://i.imgur.com/s5A1APF.jpeg" alt="Left Image Middle" style="width: 100%; max-width: 800px; height: auto;">
-                <img src="https://i.imgur.com/1q3OHu1.jpeg" alt="Left Image Bottom" style="width: 100%; max-width: 800px; height: auto;">
+            <div style="display: flex; flex-direction: column; align-items: center; margin: 20px;">
+                <img src="https://i.imgur.com/eVMh8Ha.jpeg" alt="Left Image Top" style="width: 100%; max-width: 2000px; height: auto;">
+                <img src="https://i.imgur.com/s5A1APF.jpeg" alt="Left Image Middle" style="width: 100%; max-width: 2000px; height: auto;">
+                <img src="https://i.imgur.com/1q3OHu1.jpeg" alt="Left Image Bottom" style="width: 100%; max-width: 2000px; height: auto;">
             </div>
-            <div style="display: flex; flex-direction: column; align-items: center;">
+            <div style="display: flex; flex-direction: column; align-items: center; margin: 50px;">
                 <h1>Happy Valentines Day Emma <3!</h1>
                 <p>Hi Emma! Happy Valentines Day! I'm so happy that you are my valentine now. I love and miss you
                 so much and am so excited that we get to spend time together soon. Our trip is going to be so much fun
@@ -20,10 +20,10 @@ document.getElementById('yesBtn').addEventListener('click', function() {
                 gorgeous, amazing person I have ever met. I so happy that I met you so young and get to have you for so much
                 of my life. You make me so happy and I can't wait to see you! I love you so much Em. Happy Valentines Day. <3                                                                                                                                                                                                                                            </p>
             </div>
-            <div style="display: flex; flex-direction: column; align-items: center;">
-                <img src="https://i.imgur.com/wmh4QXs.jpeg" alt="Right Image Top" style="width: 100%; max-width: 800px; height: auto;">
-                <img src="https://i.imgur.com/dZWAzCu.jpeg" alt="Right Image Middle" style="width: 100%; max-width: 800px; height: auto;">
-                <img src="https://i.imgur.com/IuOh6hb.jpeg" alt="Right Image Bottom" style="width: 100%; max-width: 800px; height: auto;">
+            <div style="display: flex; flex-direction: column; align-items: center; margin: 20px;">
+                <img src="https://i.imgur.com/wmh4QXs.jpeg" alt="Right Image Top" style="width: 100%; max-width: 2000px; height: auto;">
+                <img src="https://i.imgur.com/dZWAzCu.jpeg" alt="Right Image Middle" style="width: 100%; max-width: 2000px; height: auto;">
+                <img src="https://i.imgur.com/IuOh6hb.jpeg" alt="Right Image Bottom" style="width: 100%; max-width: 2000px; height: auto;">
             </div>
         </div>
     `;
