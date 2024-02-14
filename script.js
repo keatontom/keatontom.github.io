@@ -15,7 +15,10 @@ document.getElementById('yesBtn').addEventListener('click', function() {
                 <h1>Happy Valentines Day Emma <3!</h1>
                 <p>Hi Emma! Happy Valentines Day! I'm so happy that you are my valentine now. I love and miss you
                 so much and am so excited that we get to spend time together soon. Our trip is going to be so much fun
-                and I am so excited to be able spend my reading week with you.</p>
+                and I am so excited to be able spend my reading week with you. You are the best person to have come into my 
+                life and I am so grateful and lucky to have you. You are the smartest, funniest, most caring, loving, beautiful,
+                gorgeous, amazing person I have ever met. I so happy that I met you so young and get to have you for so much
+                of my life. You make me so happy and I can't wait to see you! I love you so much Em. Happy Valentines Day. <3                                                                                                                                                                                                                                            </p>
             </div>
             <div style="display: flex; flex-direction: column; align-items: center;">
                 <img src="https://i.imgur.com/wmh4QXs.jpeg" alt="Right Image Top" style="width: 100%; max-width: 800px; height: auto;">
